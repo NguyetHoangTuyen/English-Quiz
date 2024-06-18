@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>English Quiz</h1>
+        <form id="quizForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+            
+            <label>Answer the following questions:</label>
+            <br><br>
+
+            <!-- What questions -->
+            <label>What is your name?</label>
+            <textarea id="question1" name="question1" rows="2" cols="50" required></textarea>
+            <br><br>
+
+            <label>What do you like to do in your free time?</label>
+            <textarea id="question2" name="question2" rows="2" cols="50" required></textarea>
+            <br><br>
+
+            <label>What is your favorite food?</label>
+            <textarea id="question3" name="question3" rows="2" cols="50" required></textarea>
+            <br><br>
+
+            <label>What are your hobbies?</label>
+            <textarea id="question4" name="question4" rows="2" cols="50" required></textarea>
+            <br><br>
+
+            <!-- Where questions -->
+            <label>Where do you live?</label>
+            <textarea id="question5" name="question5" rows="2" cols="50" required></textarea>
+            <br><br>
+
+            <label>Where do you usually go on weekends?</label>
+            <textarea id="question6" name="question6" rows="2" cols="50" required></textarea>
+            <br><br>
+
+            <!-- When questions -->
+            <label>When do you wake up every morning?</label>
+            <textarea id="question7" name="question7" rows="2" cols="50" required></textarea>
+            <br><br>
+
+            <label>When do you have dinner?</label>
+            <textarea id="question8" name="question8" rows="2" cols="50" required></textarea>
+            <br><br>
+
+            <!-- How questions -->
+            <label>How do you travel to work/school?</label>
+            <textarea id="question9" name="question9" rows="2" cols="50" required></textarea>
+            <br><br>
+
+            <label>How often do you exercise?</label>
+            <textarea id="question10" name="question10" rows="2" cols="50" required></textarea>
+            <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result"></div>
+        <div id="result-history"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
